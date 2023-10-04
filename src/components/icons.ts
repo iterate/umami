@@ -10,7 +10,6 @@ import Eye from 'assets/eye.svg';
 import Gear from 'assets/gear.svg';
 import Globe from 'assets/globe.svg';
 import Lock from 'assets/lock.svg';
-import Logo from 'assets/logo.svg';
 import Magnet from 'assets/magnet.svg';
 import Moon from 'assets/moon.svg';
 import Nodes from 'assets/nodes.svg';
@@ -35,7 +34,7 @@ const icons: any = {
   Gear,
   Globe,
   Lock,
-  Logo,
+  // Logo,
   Magnet,
   Moon,
   Nodes,

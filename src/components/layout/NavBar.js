@@ -1,8 +1,7 @@
-import { Icon, Text, Row, Column } from 'react-basics';
+import { Text, Row, Column } from 'react-basics';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import classNames from 'classnames';
-import Icons from 'components/icons';
 import ThemeButton from 'components/input/ThemeButton';
 import LanguageButton from 'components/input/LanguageButton';
 import ProfileButton from 'components/input/ProfileButton';
@@ -26,10 +25,12 @@ export function NavBar() {
       <Row>
         <Column className={styles.left}>
           <div className={styles.logo}>
-            <Icon size="lg">
-              <Icons.Logo />
-            </Icon>
-            <Text className={styles.text}>umami</Text>
+            <img
+              src="https://uploads-ssl.webflow.com/5ea18b09bf3bfd55814199f9/5ea18b09bf3bfda137419a00_petri_square_03.gif"
+              className={styles.logo}
+              alt="headless logo"
+            />
+            <Text className={styles.text}>Headless Analytics</Text>
           </div>
           <div className={styles.links}>
             {links.map(({ url, label }) => {
